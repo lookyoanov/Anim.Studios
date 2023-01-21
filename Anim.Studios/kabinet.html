@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Личный кабинет</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/kabinet.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+<body>
+<!--Начинаеться header -->
+<header>
+<div class="header_fix">
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand"><strong>АНИМАЦИОННАЯ</strong><p class="text"><strong>СТУДИЯ</strong></p>
+            </div>
+                <ul class="navig" >
+                    <li class="nav active">
+                        <a href="index.html" class="nav-link">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="nav">
+                        <a href="indexkat.html" class="nav-link">КАТАЛОГ</a>
+                    </li>
+                    <li class="nav">
+                        <a href="indexportf.html" class="nav-link">ПОРТФОЛИО</a>
+                    </li>
+                    <li class="nav">
+                        <a href="indexosebe.html" class="nav-link">О СЕБЕ</a>
+                    </li>
+                </ul>
+                <div class="openreg">
+                    <a class="navbar-brand1 navbar-fixed-top" href="#"><strong>ВОЙТИ</strong><br><a class="text1" href="#"><strong>ЗАРЕГЕСТРИРОВАТЬСЯ</strong></a>
+                </div>
+        </div>
+    </nav>
+    <nav class="navbar-footer">
+        <div class="navbar-footer1">
+            <a class="navbar-brand2" href="mailto:kliaksa.stydio@gmail.com"><strong>kliaksa_studio@gmail.com</strong></a></p>
+        </div>
+    </nav>
+</div>
+</header>
+<!--Начинаеться main -->
+<main class="main">
+        <div class="maincontainer">
+            <div class="textz">
+               <h3 class="textourproject"><strong>ЛИЧНЫЙ</strong><h3 class="textourproject1">КАБИНЕТ</h3>
+           </div>
+            <div class="bodyproject">
+                <h3 class="text_myproject"><strong>МОИ ПРОЕКТЫ</strong></h3>
+                <div class="content">
+                      <div class="heartproject">
+                               <div class="mylt">Мульт! Бобик в гостях у барбоса:)</div>
+                      </div>
+                      <div class="buttonproject">
+                            <img onclick="window.location.href = '#new_project';" class="buttoncolor" src="image/кнопка.png" class="salepicture" width="40%" height="auto"/>
+                      </div>
+                </div>
+            </div>
+        </div>
+</main>
+<!--Начинаеться footer -->
+<footer class="footer1">
+    <div class="Footer2">
+        <div class=BLOCK1>
+            <p class=TeXT_1><strong>АНИМАЦИОННАЯ<br>СТУДИЯ</strong></p>
+        <div class=line></div>
+        <div class=BLOCK2>
+            <p class=TeXT >kliaksa.stydio@gmail.com<br>8-800-200-30-55</p>
+        </div>
+    </div>
+</footer>
+<!-- Окно добавить проект -->
+<div id="new_project" class="new_project">
+    <a href="#header" class="area_po"></a>
+    <div class="detailed_po_body">
+    <div class="detailed_po_content">
+        <a href="#header" class="modal_po_close">X</a>
+        <div class="heart_inf">
+            <h3 class="new_project_heading">ЗАПОЛНИТЕ АНКЕТУ<h3>
+        </div>
+        <div class="new_project_main">
+              <div class="one">
+                    <input placeholder="Номер проекта" class="numer_project" type="text">
+                    <form class="developer_list" action="formdata" method="post">
+                        <p class="developer_list_p"><select>
+                        <option>Разработчик анимации</option>
+                        <option>Петров</option>
+                        <option>Сидоров</option>
+                        <option>Ложкин</option>
+                        <option>Плюшкин</option>
+                        </select></p>
+                   </form>
+              </div>
+              <div class="two">
+                <form class="service_list" action="formdata" method="post">
+                    <p class="service_list_p"><select>
+                    <option>Услуга, вид разработки</option>
+                    <option>3D и 2D Анимация</option>
+                    <option>Инфографика</option>
+                    <option>Анимирование сайта</option>
+                    </select></p>
+               </form>
+               <input placeholder="Хронометраж" class="time_project" type="text">
+              </div>
+              <div class="three">
+                   <input placeholder="Музыкальное оформление" class="music_project" type="text">
+                   <input placeholder="Наименование" class="name_project" type="text">
+              </div>
+              <div class="four">
+                <input placeholder="Описание" class="description_project" type="text">
+              </div>
+        </div>
+        <div class="detailed_knopki_footer">
+              <button onclick="window.location.href = '#modal_po';" class="buttonrt">ДОБАВИТЬ</button>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

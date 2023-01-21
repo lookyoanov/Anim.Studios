@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.navbar{
+    background: #63A5A9;
+}
+.container-fluid {
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.header_fix{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar{
+    font-family: 'Orelega One', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-brand{
+    margin: 0%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    color:#ffff;
+    font-size: 150%;
+}
+.text{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding-bottom: 3%;
+    font-size: 130%;
+}
+.navig{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding-bottom: 0%;
+}
+.openreg{
+    text-align: right;
+}
+.navbar-brand1{
+    margin: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 120%;
+}
+.navbar-brand1:hover {
+    text-decoration: none;
+    color: #2D4647;;
+}
+.text1{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding-bottom: 0%;
+    font-size: 120%;
+    text-decoration: none;
+}
+.text1:hover {
+    text-decoration: none;
+    color: #2D4647;;
+}
+.nav{
+    font-size: 120%;
+    padding-top: 1%;
+}
+#nvg{
+    background-color: #8daaac;
+}
+.nav-link{
+    color: rgb(46, 46, 46);
+}
+.nav-link:hover{
+    color: #d4d4d4;;
+}
+.navbar-footer1{
+    background: rgba(173, 241, 244, 0.23);
+    position: absolute;
+    padding-left: 87%;
+    width: 100%;
+
+}
+.navbar-brand2{
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    text-decoration: none;
+    color: #000000;
+    font-size: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 68%;
+}
+.navbar-brand2:hover {
+    text-decoration: none;
+    color: #2D4647;;
+}
+
+/* Начинаеться main */
+.headerwrap{
+    font-family: 'Orelega One', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+.headr{
+    padding-bottom: 3%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    padding-top: 0%;
+    padding-right: 1%;
+}
+.heading1{
+    padding-bottom: 0%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0%;
+    background-color: rgba(113, 201, 206, 0.67);
+}
+.blok1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blokleft{
+width: 60%;
+margin: 2%;
+margin-left: 0%;
+}
+
+.imgleftblok{
+    padding-top: 2%;
+    margin-right: 0%;
+}
+.imgblok{
+   margin: 2%;
+   margin-left: 0%;
+}
+.textblokleft{
+    padding-top: 8%;
+}
+.imgblokriht{
+    padding-bottom: 2%;
+    padding-top: 7.8%;
+}
+.blokcenter{
+    background: linear-gradient(308.49deg, #11565A -8.2%, #71C9CE 120.46%);
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 0%;
+    z-index: 0;
+}
+.contenttext{
+    margin: 10%;
+}
+.blokcentertext{
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    line-height: 100%;
+    text-align: left;
+    font-weight: 400;
+}
+.blokcenterteext{
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    line-height: 100%;
+    text-align: justify;
+    font-weight: 400;
+}
+.blokcenterfooter{
+    margin-top: 1%;
+    padding-top: 0.7%;
+    width: 150px;
+    height: 20px;
+    font-size: 160%;
+    background: rgba(113, 201, 206, 0.01);
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 0px;
+    transition: 0.2s;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.blokcenterfooter:hover{
+    background-color: #529194;
+}
+.blokcenterfooter:active{
+    background-color: rgb(255, 255, 255);
+}
+.blok2{
+    margin-top: 10%;
+}
+.textblok2left{
+    text-align: right;
+}
+.blok2left{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.imgblok1{
+    margin-left: 15%;
+}
+
+.blokcenter1{
+    background: linear-gradient(262.08deg, rgba(199, 246, 248, 0.96) -42.51%, #1E6E72 98.9%);
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 45%;
+}
+.contenttext1{
+    width: 500px;
+    margin: 3%;
+}
+.blokcentertext1{
+    margin-bottom: 0%;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    line-height: 150%;
+    text-align: justify;
+    font-weight: 400;
+}
+.blokcenterfooter1{
+    margin-bottom: 5%;
+    margin-left: 62%;
+    margin-top: 0%;
+    padding-top: 0.7%;
+    width: 150px;
+    height: 20px;
+    font-size: 160%;
+    background: rgba(113, 201, 206, 0.01);
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 0px;
+    transition: 0.2s;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.blokcenterfooter1:hover{
+    background-color: #529194;
+}
+.blokcenterfooter1:active{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.blokcenter2{
+    background: linear-gradient(308.49deg, #11565A -8.2%, #71C9CE 120.46%);
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 45%;
+}
+.contenttext2{
+    width: 500px;
+    margin: 3%;
+}
+.blokcentertext2{
+    margin-bottom: 0%;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    line-height: 150%;
+    text-align: justify;
+    font-weight: 400;
+}
+.blokcenterfooter2{
+    margin-bottom: 5%;
+    margin-left: 62%;
+    margin-top: 2%;
+    padding-top: 0.7%;
+    width: 150px;
+    height: 20px;
+    font-size: 160%;
+    background: rgba(113, 201, 206, 0.01);
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 0px;
+    transition: 0.2s;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.blokcenterfooter2:hover{
+    background-color: #529194;
+}
+.blokcenterfooter2:active{
+    background-color: rgb(255, 255, 255);
+}
+
+.blokcenter3{
+    background: linear-gradient(308.49deg, #11565A -8.2%, #71C9CE 120.46%);
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+.contenttext3{
+    width: 500px;
+}
+.blokcentertext3{
+    margin-bottom: 0%;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    line-height: 150%;
+    text-align: justify;
+    font-weight: 400;
+}
+.blokcenterteext3{
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+    line-height: 100%;
+    text-align: justify;
+    font-weight: 400;
+}
+.blokcenterfooter3{
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-top: 0%;
+    padding-top: 0.7%;
+    width: 150px;
+    height: 20px;
+    font-size: 160%;
+    background: rgba(113, 201, 206, 0.01);
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 0px;
+    transition: 0.2s;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.blokcenterfooter3:hover{
+    background-color: #529194;
+}
+.blokcenterfooter3:active{
+    background-color: rgb(255, 255, 255);
+}
+.blok3{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.textblok3left{
+    margin-top: 8%;
+}
+.imgleftblok3{
+margin-top: 10%;
+margin-right: 3%;
+}
+.imgblokriht{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Начинаеться footer */
+
+.footer1{
+    background-color: #63A5A9;
+    width: 100%;
+    margin-right: -1%;
+    margin-left: 0%;
+    margin-top: 100px;
+}
+.Footer2{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    border-left: 2px solid black;
+    height: 50px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.TeXT_1{
+  margin-top: 5%;
+  margin-right: 2%;
+  text-align: right;
+}
+.BLOCK1{
+    display: flex;
+}
+.BLOCK2{
+  margin-top: 5%;
+  margin-left: 2%;
+}
+/* Начинаються модальные окна авторизации, регистрации */
+.modal_po{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0.8s ease 0s;
+}
+.modal_po:target{
+opacity: 1;
+visibility: visible;
+}
+
+.modal_po:target .modal_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.modal_po_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.modal_po_content{
+    background: linear-gradient(139.66deg, #63797A -1.36%, #2E4E50 96.07%);
+    color: #ffffff;
+    width: 30%;
+    padding: 2%;
+    position: relative;
+    transition: all 0,1s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+}
+.modal_po_close{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.modal_po_close:hover{
+    color: #000;
+}
+.area_po{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+.form_img{
+    text-align: center;
+}
+.login{
+    margin-top: 2%;
+    padding: 2%;
+    width: 300px;
+}
+.password{
+    margin-bottom: 2%;
+    padding: 2%;
+    width: 300px;
+}
+.knopki_footer{
+    text-align: center;
+    padding-top: 0%;
+    padding-top: 4%;
+}
+.voiti{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    color: #ffffff;
+    width: 90px;
+    height: 40px;
+}
+.voiti:hover{
+    background-color: rgba(50, 103, 105, 0.884);
+}
+.voiti:active{
+    background-color: #ffffff;
+}
+.zareg{
+    margin-left: 1%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+}
+.zareg:hover{
+    background-color: rgba(50, 103, 105, 0.884);
+}
+.zareg:active{
+    background-color: #ffffff;
+}
+/* Начинаються окно ввода ФИ, email, номер телефона */
+
+.modal_po_reg{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0s ease 0s;
+}
+.modal_po_reg:target{
+opacity: 1;
+visibility: visible;
+}
+
+.modal_po_reg:target .modal_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.form_img_reg{
+    text-align: center;
+}
+.surname{
+    margin-top: 4%;
+    padding: 2%;
+    width: 300px;
+}
+.name{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    width: 300px;
+}
+.email{
+    margin-bottom: 2%;
+    padding: 2%;
+    width: 300px;
+}
+.number{
+    padding: 2%;
+    width: 300px;
+}
+.knopki_footer{
+    text-align: center;
+    padding-top: 2.5%;
+}
+.next{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    color: #ffffff;
+    width: 84%;
+    height: auto;
+    padding: 2%;
+}
+.next:hover{
+    background-color: rgba(50, 103, 105, 0.884);
+}
+.next:active{
+    background-color: #ffffff;
+}
+/* Окно ввода пароля при регистрации */
+.modal_po_pas{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0s ease 0s;
+}
+.modal_po_pas:target{
+opacity: 1;
+visibility: visible;
+}
+
+.modal_po_pas:target .modal_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.form_img_pas{
+    text-align: center;
+}
+.password_reg{
+    margin-top: 4%;
+    padding: 2%;
+    width: 300px;
+}
+.password_reg_second{
+    margin-top: 2%;
+    padding: 2%;
+    width: 300px;
+}
+.knopki_footer{
+    text-align: center;
+    padding-top: 2.5%;
+}
+.zaregestr{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    color: #ffffff;
+    width: 84%;
+    height: auto;
+    padding: 2%;
+}
+.zaregestr:hover{
+    background-color: rgba(50, 103, 105, 0.884);
+}
+.zaregestr:active{
+    background-color: #ffffff;
+}
+/* Окно перехода в личный кабинет, выйти при регистрациии, авторизации */
+.modal_po_inf{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0.8s ease 0s;
+}
+.modal_po_inf:target{
+opacity: 1;
+visibility: visible;
+}
+
+.modal_po_inf:target .modal_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.modal_po_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.modal_po_content{
+    background: linear-gradient(139.66deg, #63797A -1.36%, #2E4E50 96.07%);
+    color: #ffffff;
+    width: 30%;
+    padding: 2%;
+    position: relative;
+    transition: all 0,1s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+}
+.modal_po_close{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.modal_po_close:hover{
+    color: #000;
+}
+.area_po{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+.heart_inf{
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.fi_form{
+  border: 1px solid #FFFFFF;
+  padding: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #ffffff;
+  color: #000000;
+}
+.number_form{
+   border: 1px solid #FFFFFF;
+   padding: 2%;
+   background-color: #ffffff;
+   color: #000000;
+}
+
+.knopki_footer{
+    text-align: center;
+    padding-top: 0%;
+    padding-top: 4%;
+}
+.lch_kab{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    color: #ffffff;
+    width: 51%;
+    height: auto;
+    padding: 2%;
+}
+.lch_kab:hover{
+    background-color: rgba(50, 103, 105, 0.884);
+}
+.lch_kab:active{
+    background-color: #ffffff;
+}
+.exit{
+    margin-left: 1%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    color: #ffffff;
+    width: 31%;
+    height: auto;
+    padding: 2%;
+}
+.exit:hover{
+    background-color: rgba(50, 103, 105, 0.884);
+}
+.exit:active{
+    background-color: #ffffff;
+}
+/*Окно перехода после нажатия кнопки подробнее 3D и 2D Анимация*/
+.detailed{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0.8s ease 0s;
+}
+.detailed:target{
+opacity: 1;
+visibility: visible;
+}
+
+.detailed:target .detailed_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.detailed_po_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detailed_po_content{
+    background: linear-gradient(139.66deg, #63797A -1.36%, #2E4E50 96.07%);
+    color: #ffffff;
+    width: 50%;
+    padding: 2%;
+    position: relative;
+    transition: all 0s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+}
+.modal_po_close{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.modal_po_close:hover{
+    color: #000;
+}
+.area_po{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+.detailed_heading{
+  padding: 2%;
+  padding-top: 4%;
+}
+.detailed_text{
+     font-size: 70%;
+     text-align: justify;
+}
+.detailed_knopki_footer{
+  text-align: center;
+  padding-top: 1%;
+}
+.buttonrt{
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 150px;
+    height: 20px;
+    font-size: 120%;
+    background: linear-gradient(98.53deg, #FF45CB -52.89%, rgba(238, 87, 54, 0.77) 44.21%, #EE5736 187.56%);
+    border: 3px solid #da6363;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    transition: 0.2s;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 45px;
+    line-height: 100%;
+}
+.buttonrt:hover{
+    background-color: #6d4444;
+}
+.buttonrt:active{
+    background-color: #ffffff;
+}
+/*Окно перехода после нажатия кнопку подробнее Рисуем анимацию для оформления роликов на YouTube*/
+.detailed_YouTube{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0.8s ease 0s;
+}
+.detailed_YouTube:target{
+opacity: 1;
+visibility: visible;
+}
+
+.detailed_YouTube:target .detailed_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/*Окно перехода после нажатия кнопку подробнее создание анимированных презентаций*/
+.detailed_presentation{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0.8s ease 0s;
+}
+.detailed_presentation:target{
+opacity: 1;
+visibility: visible;
+}
+
+.detailed_presentation:target .detailed_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/*Окно перехода после нажатия кнопку подробнее создание анимированных презентаций*/
+.detailed_svg{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.685);
+color: #d2f7f8;
+opacity: 0;
+visibility: hidden;
+overflow-y: auto;
+overflow-x: hidden;
+transition: all 0.8s ease 0s;
+}
+.detailed_svg:target{
+opacity: 1;
+visibility: visible;
+}
+
+.detailed_svg:target .detailed_po_content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}

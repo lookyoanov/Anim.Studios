@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.navbar{
+    background: #63A5A9;
+}
+.container-fluid {
+padding-left: 10%;
+padding-right: 10%;
+}
+.navbar{
+    font-family: 'Orelega One', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-brand{
+    margin: 0%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    color:#ffff;
+    font-size: 150%;
+}
+.text{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding-bottom: 3%;
+    font-size: 130%;
+}
+.navig{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding-bottom: 0%;
+}
+.openreg{
+    text-align: right;
+}
+.navbar-brand1{
+    margin: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-decoration: none; 
+    color: #ffffff;
+    font-size: 120%;
+}
+.navbar-brand1:hover {
+    text-decoration: none; 
+    color: #2D4647;;
+}
+.text1{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding-bottom: 0%;
+    font-size: 120%;
+    text-decoration: none;
+}
+.text1:hover {
+    text-decoration: none; 
+    color: #2D4647;;
+}
+.nav{
+    font-size: 120%;
+    padding-top: 1%;
+}
+#nvg{
+    background-color: #8daaac;
+}
+.nav-link{
+    color: rgb(46, 46, 46);
+}
+.nav-link:hover{
+    color: #d4d4d4;;
+}
+.navbar-footer1{
+    background: rgba(173, 241, 244, 0.23);
+    position: absolute;
+    padding-left: 87%;
+    
+}
+.navbar-brand2{
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    text-decoration: none; 
+    color: #000000;
+    font-size: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 68%;
+}
+.navbar-brand2:hover {
+    text-decoration: none; 
+    color: #2D4647;;
+}
